@@ -2,6 +2,7 @@ import modules.perimeter as perimeter
 import modules.factorial as factorial
 import modules.tests.test_all as ta
 
+print('start')
 f1 = factorial.factorial_norm(5)
 print(f1)   
 
@@ -19,3 +20,4 @@ print(p1)
 
 p2 = perimeter.perimeter_func([1, 2, 5, 7, 9])
 print(p2) 
+print('end')
