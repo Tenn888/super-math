@@ -2,6 +2,7 @@ import modules.perimeter as perimeter
 import modules.factorial as factorial
 import modules.tests.test_all as ta
 
+print('pre start')
 print('Start 1')
 f1 = factorial.factorial_norm(5)
 print(f1)   
